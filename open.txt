@@ -1,0 +1,3 @@
+to open the vs code with ubuntu 10.04 LTS
+change the directory then type : code .
+then it will automaticqally open the folder
