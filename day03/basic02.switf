@@ -1,0 +1,36 @@
+// print("Hello World")
+
+//Learn Another Variable(s)===================================================================
+var isHappy: Bool = true //or false
+var age: Int = 26
+var num: Float = 0.1 //double
+var word: String = "My Name Is Nulla \(age)"
+
+//string literal
+let sLiteral = """
+this is the example 
+of the savior 
+"string literal"
+my age is \(age)
+:)
+"""
+
+let char = "a" //char in swift using double cortation "a" not single cortation 'a'
+
+let n1 = 1
+let n2 = 3.0
+// n1 + Int(n2) //need to change double it Int
+
+//Array================
+let array: [Int] = [1,2,3]  //if using this must enter the type of variable;
+//or can:
+var array1 = [1,2,3]
+
+//if want to set an empty variables
+let emptyArray :[Int] = [] //must determine the type before declare it, or can
+let anyArray2 :[Any] = [1,"a"] //for any type (can mix from many types)
+
+//the size of swift array can be change!
+array1.append(4)
+
+print(array1)
